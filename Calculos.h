@@ -84,6 +84,6 @@ double q8 (double indcetesb) {
 	double A = 80.26, B = -0.00107, C = 0.03009, D = -0.1185; 
     if (indcetesb > 500) 
 		return 30.0; 
-		indcetesb = (A * exp((B * indcetesb) + (C * sqrt(indcetesb)))) + (D * indcetesb ); 
-	return indice; 
+		indcetesb = (A * exp((B * indcetesb) + (C * sqrt(indcetesb)))) + (D * indcetesb); 
+	return indcetesb; 
 } 
